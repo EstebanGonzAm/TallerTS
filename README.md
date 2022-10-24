@@ -1,3 +1,4 @@
 # TallerTS
 Taller TypeScript
-Esteban Gonzalez Amaya        e.gonzaleza
+Esteban Gonzalez Amaya
+e.gonzaleza
