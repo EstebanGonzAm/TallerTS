@@ -11,35 +11,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Series</title>
 </head>
+
 <body>
     <h1 style="background-color:DodgerBlue;">TV Series</h1>
     <div class="container">
-    <div class="row">
-    <div class="col">
-    <div class=container.fluid>
-        <div class="col-5">
-        <table id="series" class="table table-striped table-bordered">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Channel</th>
-                <th scope="col">Seasons</th>
-              </tr>
-            </thead>
-            <tbody id ="series">
-            </tbody>
-          </table>
-          <table>
-              <tbody id="promedio">
-              </tbody>
-              </table>
-          </table>
+        <div class="row">
+            <div class="col">
+                <table id="series" class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Channel</th>
+                        <th scope="col">Seasons</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="ids"></td>
+                            <td id="nombre"></td>
+                            <td id="channel"></td>
+                            <td id="seasons"></td>
+                        </tr>
+                    </tbody>
+                  </table>
+                  <table>
+                      <tbody id="promedio">
+                      </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <div class="card" id ="tarjeta" style="width: 18rem;">
+                    </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-
 </body>
 </html>
